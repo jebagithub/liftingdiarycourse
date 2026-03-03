@@ -21,3 +21,9 @@ This is a Next.js 16 app using the App Router with TypeScript and Tailwind CSS v
   - `globals.css` — Global styles with Tailwind directives
 
 The project is a fresh scaffold (course starter template) intended to be built out into a lifting/workout diary application.
+
+## Docs Reference
+
+IMPORTANT: Before generating any code, always consult the relevant documentation file in the `/docs` directory first. These files contain project-specific conventions, component patterns, and implementation guidance that must be followed.
+
+- `/docs/ui.md` — UI component patterns and design conventions
