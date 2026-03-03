@@ -27,3 +27,4 @@ The project is a fresh scaffold (course starter template) intended to be built o
 IMPORTANT: Before generating any code, always consult the relevant documentation file in the `/docs` directory first. These files contain project-specific conventions, component patterns, and implementation guidance that must be followed.
 
 - `/docs/ui.md` — UI component patterns and design conventions
+- `/docs/data-fetching.md` — Data fetching rules: server components only, Drizzle ORM via `/data` helpers, user data isolation
