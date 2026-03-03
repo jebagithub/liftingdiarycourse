@@ -28,3 +28,5 @@ IMPORTANT: Before generating any code, always consult the relevant documentation
 
 - `/docs/ui.md` — UI component patterns and design conventions
 - `/docs/data-fetching.md` — Data fetching rules: server components only, Drizzle ORM via `/data` helpers, user data isolation
+- `/docs/data-mutations.md` — Data mutation rules: server actions in colocated `actions.ts`, typed params, Zod validation, `/data` helpers
+- `/docs/auth.md` — Authentication standards: Clerk only, session-derived userId, middleware, and protected pages

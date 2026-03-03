@@ -23,3 +23,15 @@ export async function getWorkouts(userId: string, date?: Date) {
 
   return db.select().from(workouts).where(eq(workouts.userId, userId));
 }
+
+export async function createWorkout(
+  userId: string,
+  name: string,
+  notes: string | null
+) {
+  const [workout] = await db
+    .insert(workouts)
+    .values({ userId, name, notes })
+    .returning();
+  return workout;
+}
